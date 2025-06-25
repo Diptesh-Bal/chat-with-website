@@ -77,3 +77,5 @@ streamlit run src/app.py
 - All chat history is session-based and resets when you reload the app.
 
 ## License
+
+This project is for educational purposes.
