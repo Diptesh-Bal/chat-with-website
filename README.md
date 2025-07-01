@@ -2,6 +2,8 @@
 
 A chatbot application that lets you interact with the content of any website using its URL as context. Built with Python, Streamlit, and Langchain, it leverages LLMs to answer your questions based on the website's content.
 
+---
+
 ## Features
 
 - Enter any website URL and chat with its content
@@ -9,6 +11,8 @@ A chatbot application that lets you interact with the content of any website usi
 - Embeds website text into a vector store for efficient context retrieval
 - Maintains chat history for context-aware responses
 - Simple Streamlit web interface
+
+---
 
 ## How It Works
 
@@ -21,6 +25,8 @@ A chatbot application that lets you interact with the content of any website usi
 4. **LLM Response:**  
    The retrieved context is passed to a language model (OpenAI) to generate a response.
 
+---
+
 ## Folder Structure
 
 ```
@@ -32,6 +38,7 @@ chat-with-website/
     ├── app.py          # Main Streamlit app
     └── check.py        # Utility for inspecting document chunks
 ```
+---
 
 ## Getting Started
 
@@ -71,10 +78,14 @@ streamlit run src/app.py
 - Open your browser to the provided local URL.
 - Enter a website URL in the sidebar and start chatting!
 
+---
+
 ## Notes
 
 - The first time you enter a URL, the app fetches and processes the website, which may take a few seconds.
 - All chat history is session-based and resets when you reload the app.
+
+---
 
 ## License
 
